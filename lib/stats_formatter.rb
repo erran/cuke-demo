@@ -1,6 +1,6 @@
 require 'cucumber/formatter/io'
 
-class JSONStatisticsFormatter
+class StatsFormatter
   include Cucumber::Formatter::Io
   attr_reader :runtime
 
